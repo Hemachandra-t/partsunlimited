@@ -54,4 +54,4 @@ jobs:
         app-name: 'partsunlimited-web-454779'
         slot-name: 'Staging'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1fb9521475044dcdad836a804eb7cb4a }}
-        package: ${{env.DOTNET_ROOT}}/myapp
+        package: .
